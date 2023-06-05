@@ -1226,8 +1226,12 @@ p {
 }
 
 .mobile-socials {
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 54px;
+}
+
+.mobile-social-icon {
+  fill: var(---color-photo-item);
 }
 
 .link-menu {
