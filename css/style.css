@@ -1233,6 +1233,12 @@ p {
   gap: 54px;
 }
 
+@media only screen and (max-width: 428px) {
+  .mobile-socials {
+    gap: 0px;
+  }
+}
+
 .mobile-social-icon {
   fill: var(---color-photo-item);
 }
@@ -1259,6 +1265,12 @@ p {
   text-transform: capitalize;
 
   color: #4D5AE5;
+}
+
+@media only screen and (max-width: 428px) {
+  .tel-menu {
+    font-size: 24px;
+  }
 }
 
 .mail-menu {
